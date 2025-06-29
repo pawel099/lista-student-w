@@ -1,1 +1,1 @@
-# lista-student-w
+# lista-studentów
