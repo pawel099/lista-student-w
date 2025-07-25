@@ -36,7 +36,7 @@ class Students:
        else:
          return "nic nie odnaleziono "
     
-baza = '.\\baza\\students.sqlite'
+baza = 'baza\\students.sqlite'
 student = Students(baza)
 
 lists = student.lista_all_students()
