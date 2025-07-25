@@ -1,1 +1,1 @@
-# lista-studentów
+# aplikacja lista-studentów w pythonie 
