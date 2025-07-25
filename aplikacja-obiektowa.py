@@ -4,7 +4,7 @@ class Students:
 
  def lista_all_students(self):
      
-     student = {}
+     student = {"pawel":7777}
      search = int(input(''))
 
      match search:
