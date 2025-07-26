@@ -11,7 +11,7 @@ class Students:
          
    self.connect = sqlite3.connect(baza)
    dane = self.connect.execute("SELECT * FROM students")
-   self.lista_studentów = dane.fetchall()
+   self.lista_studentów = dane.fetchmany()
 
   except:
           print("wystapił bład")
@@ -36,7 +36,7 @@ class Students:
        else:
          return "nic nie odnaleziono "
     
-baza = 'baza\\students.sqlite'
+baza = 'baza\students.sqlite'
 student = Students(baza)
 
 lists = student.lista_all_students()
